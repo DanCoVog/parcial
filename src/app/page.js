@@ -6,6 +6,15 @@ export default function Home() {
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-600 p-6">
       <h1 className="text-3xl font-bold mb-8 text-black ">📊 Dashboard de Gestión</h1>
 
+      <p className="mb-6 text-black">
+        Desde aquí podrás gestionar todos los aspectos de la aplicación.
+      </p>
+
+      <p className="mb-6 text-black">
+        Utiliza los botones a continuación para navegar por las diferentes secciones.
+      </p>
+      
+
       <div className="grid grid-cols-2 gap-6 w-full max-w-md">
         <Link href="/clientes">
           <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-lg shadow-md text-lg font-semibold">
